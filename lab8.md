@@ -1,6 +1,6 @@
 # Service Discovery Labs
 
-## Set up etcd
+## Set up etcd manually
 
 vagrant up cd serv-disc-01 --provision
 
