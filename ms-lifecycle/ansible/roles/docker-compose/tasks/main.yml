@@ -1,0 +1,6 @@
+- name: Executable is present
+  shell: pip install docker-compose
+- name: Docker Compose permissions are set
+  file:
+    path: /usr/local/bin/docker-compose
+    mode: 0755

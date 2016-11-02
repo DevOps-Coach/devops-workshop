@@ -1,0 +1,2 @@
+- name: Executable is present
+  copy: src=/vagrant/docker-flow_linux_amd64  dest=/usr/local/bin/docker-flow   mode=0755
