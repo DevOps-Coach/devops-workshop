@@ -36,7 +36,7 @@ ping qq.com
 下载本页面相关的所有代码到本机，进入 'ms-lifecycle' 目录。 用vagrant up 命令把所有需要的虚拟机都创建一次，然后依次关机，保留待用，不要作进一步其它操作。
 
 ```
-git clone 
+git clone https://github.com/DevOps-Coach/devops-workshop.git
 cd ms-lifecycle
 vagrant up 
 #等待所有虚拟机都创建完成，至少需要8GB内存
