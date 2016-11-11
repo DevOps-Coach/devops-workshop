@@ -24,7 +24,7 @@
 ## 环境准备
 初始化一个Ubuntu虚拟机并且登陆进去，确保能访问外网。
 
-` ``Bash
+```
 
 mkdir test
 cd test
@@ -33,4 +33,4 @@ vagrant up
 vagrant ssh
 ping qq.com
 
-` ``
+```
