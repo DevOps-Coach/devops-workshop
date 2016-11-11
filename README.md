@@ -19,15 +19,18 @@
   
 
 ### 网络
-本机可以访问外网，本机有VPN可以访问墙外，否则镜像构建会失败，实验将无法彻底完成。网速越快越好。
+本机可以访问外网，本机有VPN可以访问墙外，虚拟机可以访问外网和墙外。 否则镜像构建会失败，实验将无法彻底完成。网速越快越好。
 
 ## 环境准备
 初始化一个Ubuntu虚拟机并且登陆进去，确保能访问外网。
-'
+
+''
+
 mkdir test
 cd test
 vagrant init ubuntu/trusty64
 vagrant up
 vagrant ssh
 ping qq.com
-'
+
+''
