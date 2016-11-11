@@ -24,13 +24,21 @@
 ## 环境准备
 初始化一个Ubuntu虚拟机并且登陆进去，确保能访问外网。
 
-```Bash
-
+```
 mkdir test
 cd test
 vagrant init ubuntu/trusty64
 vagrant up
 vagrant ssh
 ping qq.com
+```
+## 环境初始化
+下载本页面相关的所有代码到本机，进入 'ms-lifecycle' 目录。 用vagrant up 命令把所有需要的虚拟机都创建一次，然后依次关机，保留待用，不要作进一步其它操作。
 
+```
+git clone 
+cd ms-lifecycle
+vagrant up 
+#等待所有虚拟机都创建完成，至少需要8GB内存
+vagrant halt
 ```
