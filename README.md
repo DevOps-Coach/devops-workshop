@@ -1,9 +1,9 @@
-# DevOps 概念导入研讨
+# DevOps Toolkit Workshop
 课程《 DevOps 概念导入研讨》 的相关文档 ，课程介绍 http://devopscoach.org/course/devops-workshop/
 
 ## 实验环境需求
 
-### 硬件 - Laptop
+### 硬件 - 笔记本电脑/台式机
 
 * CPU Intel i5 或者更高
 * RAM 8GB  或者更高
