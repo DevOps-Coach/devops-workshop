@@ -7,7 +7,7 @@
 
 * CPU Intel i5 或者更高
 * RAM 8GB  或者更高
-* 磁盘 SSD 50GB 至少可用空间
+* 磁盘 SSD 50+GB可用空间
 
 ### 软件
 
