@@ -1,3 +1,4 @@
+'''
 git clone https://github.com/vfarcic/books-ms.git
 cd books-ms
 vagrant plugin install vagrant-cachier
@@ -31,3 +32,4 @@ vfarcic/books-ms-tests
 sudo docker-compose -f docker-compose-dev.yml run feTestsLocal
 
 sudo docker-compose -f docker-compose-dev.yml run testsLocal
+'''
