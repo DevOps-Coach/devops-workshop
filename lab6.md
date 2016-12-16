@@ -1,5 +1,6 @@
 Configuring the Production Environment
 
+```
 vagrant up cd prod --provision
 
 vagrant ssh cd
@@ -16,3 +17,4 @@ sudo: yes
 roles:
 - common
 - docker
+```

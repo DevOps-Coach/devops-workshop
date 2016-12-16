@@ -1,3 +1,4 @@
+```
 vagrant up cd prod
 vagrant ssh cd
 ansible-playbook /vagrant/ansible/prod.yml \
@@ -40,3 +41,4 @@ PORT=$(docker inspect \
 --format='{{(index (index .NetworkSettings.Ports "8080/tcp") 0).HostPort}}' \
 dl_app_1)
 echo $PORT
+```

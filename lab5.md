@@ -1,3 +1,4 @@
+```
 cd ..
 git clone https://github.com/vfarcic/ms-lifecycle.git
 cd ms-lifecycle
@@ -73,3 +74,4 @@ docker-compose rm -f
 docker push 10.100.198.200:5000/books-ms
 
 docker push 10.100.198.200:5000/books-ms-tests
+```
